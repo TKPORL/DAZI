@@ -36,7 +36,10 @@ export default defineConfig({
     port: 8000,
   },
   resolve: {
-    alias: [{ find: '@', replacement: path.resolve(__dirname, 'src') }],
+    alias: [
+      { find: '@', replacement: path.resolve(__dirname, 'src') },
+      { find: '@vit-app', replacement: path.resolve(__dirname, 'src/global.ts') },
+    ],
   },
   css: {
     modules: {
