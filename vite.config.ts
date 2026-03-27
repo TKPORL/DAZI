@@ -8,7 +8,7 @@ import vitApp from '@vitjs/vit'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/pinyin/',
+  base: '/',
   plugins: [
     react(),
     tsconfigPaths(),
