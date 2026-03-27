@@ -1,3 +1,14 @@
 import './ChuShiBian';
 import './HelloWorld';
 import './Saying';
+import './TwoCharWords';
+import './FourCharIdioms';
+import './ShortEssay';
+import './EssayMyDream';
+import './TangPoems';
+import './SongCi';
+import './MoreIdioms';
+import './CommonWords';
+import './Essays';
+import './Classics';
+import './ModernPoems';
